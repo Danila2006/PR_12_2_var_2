@@ -1,0 +1,19 @@
+2026-03-23 10:16:16.074 [INFO ] [org.openhab.core.Activator          ] - Starting openHAB 5.1.0 (Release Build)
+2026-03-23 10:16:16.332 [INFO ] [.core.internal.i18n.I18nProviderImpl] - Time zone set to 'Europe/Warsaw'.
+2026-03-23 10:16:16.333 [INFO ] [.core.internal.i18n.I18nProviderImpl] - Locale set to 'ru_150'.
+2026-03-23 10:16:18.261 [WARN ] [org.openhab.core.net.NetUtil        ] - Found multiple local interfaces - ignoring 26.157.255.32
+2026-03-23 10:16:18.264 [WARN ] [org.openhab.core.net.NetUtil        ] - Found multiple local interfaces - ignoring 192.168.158.64
+2026-03-23 10:16:26.871 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading DSL model 'semantic.items'
+2026-03-23 10:16:28.507 [WARN ] [ity.CommunityMarketplaceAddonService] - Unable to retrieve marketplace add-ons: java.lang.IllegalStateException: Expected a string but was BEGIN_OBJECT at line 1 column 19982 path $.topic_list.topics[1].tags[0]
+See https://github.com/google/gson/blob/main/Troubleshooting.md#unexpected-json-structure
+2026-03-23 10:16:29.482 [INFO ] [.core.model.lsp.internal.ModelServer] - Started Language Server Protocol (LSP) service on port 5007
+2026-03-23 10:16:29.581 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading DSL model 'semantic-search.rules'
+2026-03-23 10:16:34.507 [INFO ] [io.openhabcloud.internal.CloudClient] - Connected to the openHAB Cloud service (UUID = 79...e2, base URL = http://localhost:8080)
+2026-03-23 10:16:36.533 [INFO ] [e.automation.internal.RuleEngineImpl] - Rule engine started.
+2026-03-23 10:19:02.225 [WARN ] [.io.rest.auth.internal.TokenResource] - Couldn't find a user with a session matching the provided refresh_token
+2026-03-23 10:19:02.226 [WARN ] [.io.rest.auth.internal.TokenResource] - Token issuing failed: invalid_grant
+2026-03-23 10:23:21.738 [INFO ] [io.openhabcloud.internal.CloudClient] - Shutting down openHAB Cloud service connection
+2026-03-23 10:23:21.742 [WARN ] [io.openhabcloud.internal.CloudClient] - Socket.IO disconnected: io client disconnect
+2026-03-23 10:23:21.743 [INFO ] [io.openhabcloud.internal.CloudClient] - Disconnected from the openHAB Cloud service (UUID = 79...e2, base URL = http://localhost:8080)
+2026-03-23 10:23:21.750 [WARN ] [e.jetty.util.thread.QueuedThreadPool] - Stopped without executing or closing null
+2026-03-23 10:23:22.235 [INFO ] [basic.internal.servlet.WebAppServlet] - Stopped Basic UI

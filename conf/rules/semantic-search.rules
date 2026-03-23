@@ -1,0 +1,13 @@
+rule "Semantic device update"
+when
+  Item LivingRoom_Temperature changed
+then
+  logInfo("semantic", "Temperature updated -> triggering reasoning")
+end
+
+rule "Actuator reasoning"
+when
+  Item LivingRoom_Light received command
+then
+  logInfo("semantic", "Actuator triggered via semantic layer")
+end

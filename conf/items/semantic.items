@@ -1,0 +1,15 @@
+Number LivingRoom_Temperature "Temperature [%.1f °C]"
+  ["ssn:Sensor", "ssn:Temperature"]
+  { channel="mqtt:topic:temp:state" }
+
+Number LivingRoom_Humidity "Humidity [%.1f %%]"
+  ["ssn:Sensor", "ssn:Humidity"]
+  { channel="mqtt:topic:hum:state" }
+
+Switch LivingRoom_Light "Light"
+  ["sosa:Actuator", "ssn:Light"]
+  { channel="mqtt:topic:light:state" }
+
+Number Kitchen_Temperature "Kitchen Temp [%.1f °C]"
+  ["ssn:Sensor", "ssn:Temperature"]
+  { channel="mqtt:topic:kitchen-temp:state" }

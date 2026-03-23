@@ -1,0 +1,22 @@
+{
+  "LivingRoom_Temperature": {
+    "type": "ssn:Sensor",
+    "observes": "ssn:Temperature",
+    "location": "LivingRoom"
+  },
+  "LivingRoom_Humidity": {
+    "type": "ssn:Sensor",
+    "observes": "ssn:Humidity",
+    "location": "LivingRoom"
+  },
+  "LivingRoom_Light": {
+    "type": "sosa:Actuator",
+    "actsOn": "ssn:Light",
+    "location": "LivingRoom"
+  },
+  "Kitchen_Temperature": {
+    "type": "ssn:Sensor",
+    "observes": "ssn:Temperature",
+    "location": "Kitchen"
+  }
+}

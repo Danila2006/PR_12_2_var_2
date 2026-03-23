@@ -1,0 +1,9 @@
+{
+  "@context": {
+    "ssn": "http://www.w3.org/ns/ssn/",
+    "sosa": "http://www.w3.org/ns/sosa/",
+    "observes": "ssn:observes",
+    "actsOn": "sosa:actsOn",
+    "location": "http://schema.org/location"
+  }
+}

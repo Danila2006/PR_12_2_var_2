@@ -1,0 +1,12 @@
+{
+  "TestLight": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [],
+      "itemType": "Switch",
+      "tags": [],
+      "label": "Тестова Лампа",
+      "category": "lightbulb"
+    }
+  }
+}

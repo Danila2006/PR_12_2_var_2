@@ -1,0 +1,56 @@
+{
+  "Danil": {
+    "class": "org.openhab.core.auth.ManagedUser",
+    "value": {
+      "name": "Danil",
+      "passwordHash": "1H2Uo2i1sXAeXAcRKrPwJLmlVkC/4a5O+yIgXzBMkKnUol1L8mL/x//7jZpDYFzXASN/+xQ3Hd9MJ0zGJXkbkw\u003d\u003d",
+      "passwordSalt": "90x42UzTi5lxTrCd4iBntd8lyMEe9fc+bFkV/qPzYEamDbdg/m+TgntyxxjOLYqKtNqo6wXeRJBmR0ama51Rwg\u003d\u003d",
+      "roles": [
+        "administrator"
+      ],
+      "sessions": [
+        {
+          "sessionId": "983e3ec7-332e-461b-8f1c-49601d558d76",
+          "refreshToken": "cb86a54758d4498289a7cb3091612c2a",
+          "createdTime": "Dec 23, 2025, 10:59:05 AM",
+          "lastRefreshTime": "Dec 23, 2025, 3:39:41 PM",
+          "clientId": "http://localhost:8080",
+          "redirectUri": "http://localhost:8080",
+          "scope": "admin",
+          "sessionCookie": true
+        },
+        {
+          "sessionId": "e0a3d0c8-ebcd-4ea6-a7e5-5f911d59ded9",
+          "refreshToken": "9f87d36b3ae940d1a89297651c98a78b",
+          "createdTime": "Dec 23, 2025, 11:49:14 AM",
+          "lastRefreshTime": "Dec 23, 2025, 11:57:15 AM",
+          "clientId": "https://home.myopenhab.org",
+          "redirectUri": "https://home.myopenhab.org",
+          "scope": "admin",
+          "sessionCookie": true
+        },
+        {
+          "sessionId": "139fbbfc-db8f-4613-91d9-05a708651c04",
+          "refreshToken": "cb739abf9d36429aa2c08efb6706309a",
+          "createdTime": "Dec 23, 2025, 3:43:39 PM",
+          "lastRefreshTime": "Dec 23, 2025, 3:43:39 PM",
+          "clientId": "https://home.myopenhab.org",
+          "redirectUri": "https://home.myopenhab.org",
+          "scope": "admin",
+          "sessionCookie": true
+        },
+        {
+          "sessionId": "ec5d1250-a91d-4bbf-99fc-4c79d0457ee2",
+          "refreshToken": "cdb2cfc124894f86836e11b2d6147349",
+          "createdTime": "Mar 23, 2026, 10:19:20 AM",
+          "lastRefreshTime": "Mar 23, 2026, 10:19:20 AM",
+          "clientId": "http://localhost:8080",
+          "redirectUri": "http://localhost:8080",
+          "scope": "admin",
+          "sessionCookie": true
+        }
+      ],
+      "apiTokens": []
+    }
+  }
+}
