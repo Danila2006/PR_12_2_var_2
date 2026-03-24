@@ -30,7 +30,7 @@
 - відображення результатів
 
 ## Онтологія (SSN/SOSA)
-![Ontology Diagram]([images/ontology.png](https://github.com/user-attachments/assets/c3143b29-3bf8-4c08-b879-f930d4737d35))
+![Ontology Diagram](https://github.com/user-attachments/assets/c3143b29-3bf8-4c08-b879-f930d4737d35)
 
 ## Мова запитів (SPARQL-like)
 Система підтримує спрощену семантичну мову запитів:
